@@ -1,0 +1,2 @@
+export declare const typeDefs = "\n  type Property {\n    id: ID!\n    title: String!\n    description: String!\n    city: String!\n    pricePerNight: Float!\n    amenities: [Amenity!]!\n    createdAt: String!\n  }\n\n  type Amenity {\n    id: ID!\n    name: String!\n  }\n\n  input PropertyInput {\n    title: String!\n    description: String!\n    city: String!\n    pricePerNight: Float!\n  }\n\n  type Query {\n    properties: [Property!]!\n  }\n\n  type Mutation {\n    createProperty(input: PropertyInput!): Property!\n  }\n";
+//# sourceMappingURL=property.typeDefs.d.ts.map

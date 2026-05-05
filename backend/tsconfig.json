@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "module": "esnext",
+    "target": "es2020",
+    "lib": ["es2020"],
+    "types": ["node"],
+    "moduleResolution": "bundler",
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "removeComments": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitReturns": true,
+    "noImplicitOverride": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitAny": true,
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
