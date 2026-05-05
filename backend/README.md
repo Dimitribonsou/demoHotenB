@@ -128,17 +128,3 @@ mutation {
   }
 }
 ```
-
-##  Prochaines Étapes
-
-- [ ] Ajouter les tests unitaires (Jest)
-- [ ] Implémenter l'authentification/autorisation
-- [ ] Ajouter les mutations CRUD complètes
-- [ ] Paginer la liste des propriétés
-- [ ] Ajouter la recherche et les filtres
-- [ ] Implémenter la mise en cache
-- [ ] Ajouter les métriques et la tracing distribuée
-
-## 📝 Licence
-
-ISC
